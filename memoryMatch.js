@@ -103,6 +103,8 @@ function setUp(){
 
 function reveal(cell){
     cell.style.backgroundColor = "red";
+	cell.style.color = "white";
+	cell.style.fontWeight = "bold";
     cell.innerHTML = cell.value;
     cell.clicked = true;
 }
