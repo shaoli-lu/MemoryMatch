@@ -8,3 +8,15 @@ td{
     text-align:center;
     background-color: blue;
 }
+
+@media(max-width:100px){
+	 .hidden-xs {
+		 display: none !important;
+	 }
+}
+
+@media(max-width:100px){
+	 .visible-xs {
+		 display: block !important;
+	 }
+}

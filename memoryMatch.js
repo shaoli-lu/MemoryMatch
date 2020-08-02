@@ -111,7 +111,7 @@ function startTimer(){
     if (started == false){
         interval = setInterval(function(){
             time++;
-            document.getElementById("timer").innerHTML = "Time Elapsed: " + time;
+            document.getElementById("timer").innerHTML = "Time Elapsed (s): " + time;
         },1000)
         started = true;
     }
