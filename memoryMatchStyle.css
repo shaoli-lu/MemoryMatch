@@ -1,3 +1,14 @@
+.button {
+	background: Green; 
+	border-radius: 12px;  
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	float: center;
+	font-size: 20px;
+	font-weight: 800;
+	color: blue;
+	padding: 5px;
+	margin: 5px;
+}
 table, td {
     border: 5px solid black;
 }
